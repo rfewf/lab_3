@@ -94,7 +94,7 @@ def update_game_parameters():
 
         sheet.update_acell("B" + str(row), speed_str)
         sheet.update_acell("C" + str(row), drop_time_str)
-        sheet.update_acell("E" + str(row), str(shields))
+        sheet.update_acell("D" + str(row), str(shields))
 
 def plot_game_data():
     levels = list(range(1, 11))
