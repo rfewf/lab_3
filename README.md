@@ -206,10 +206,6 @@ public class LoadSettings : MonoBehaviour
                     _timeEggDrop = ConvertStrToFloat(parseJson[2]);
                     string strCount = parseJson[3];
                     _countShield = Convert.ToInt32(strCount);
-                    //Debug.Log($"Скорость дракона: {_dragonSpeed}, " +
-                    //    $"Скорость появления яйца: {_timeEggDrop}, " +
-                    //    $"Скорость падения яйца: {_mass}, " +
-                    //    $"Количество щитов: {_countShield}");
                 }
             }
         }
