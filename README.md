@@ -223,7 +223,7 @@ public class LoadSettings : MonoBehaviour
 ![image](https://github.com/user-attachments/assets/71e8fdcc-0c71-41cf-a1d5-93878aeefad6)
 
 
-В скрипте отвечающим за дракона мы создаем обработчик события, который будет обновлять нужные нам параметры:
+В скрипте отвечающим за создание щитов мы создаем обработчик события, который будет обновлять нужные нам параметры:
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -280,8 +280,7 @@ public class DragonPicker : MonoBehaviour
     }
 }
 ```
-
-И делаем тоже самое в скрипте который создает щит:
+В скрипте отвечающим за дракона мы создаем обработчик события, который будет обновлять нужные нам параметры:
 ```C#
 using System.Collections;
 using System.Collections.Generic;
